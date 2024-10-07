@@ -7,7 +7,7 @@ ___
 This is just a pre-setup and things are added as exploration continues !!
 
 | **S.N.** | **Books and Lessons (Resources)**                                                                                                 | **Status** |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------|------------| 
+|----------|-----------------------------------------------------------------------------------------------------------------------------------|------------|
 | **1.**   | [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)          | ⏳          |
 | **2.**   | [**Machine Learning Scientist With Python**](https://app.datacamp.com/learn/career-tracks/machine-learning-scientist-with-python) | ⏳          |
 | **3.**   | [**Associate Data Scientist in Python**](https://app.datacamp.com/learn/career-tracks/associate-data-scientist-in-python) | ⏳          |
@@ -28,14 +28,14 @@ ___
 
 | **Days**        | **Learnt Topics**                                                                                                                                                            | **Resources used**                                                                                                                                                                                                                                  |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Day 1](Day1)   |         Linear Regression, Cost Function and Optimization                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
-| [Day 2](Day2)   |         Gradient Descent Algorithm, Intuition, Implementation                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
-| [Day 3](Day3)   |         Multiple Feature Linear Regression                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
-| [Day 4](Day4)   |         ML Process and Data Pre-processing                                                                                                       |          [**Machine Learning A-Z: AI, Python & R**](https://www.udemy.com/course/machinelearning/)                                                                                                                                |
+| [Day 1](#day-1)   |         Linear Regression, Cost Function and Optimization                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
+| [Day 2](#day-2)   |         Gradient Descent Algorithm, Intuition, Implementation                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
+| [Day 3](#day-3)   |         Multiple Feature Linear Regression                                                                                                       |          [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction)                                                                                                                                |
+| [Day 4](#day-4)   |         ML Process and Data Pre-processing                                                                                                       |          [**Machine Learning A-Z: AI, Python & R**](https://www.udemy.com/course/machinelearning/)                                                                                                                                |
 
 
 ___
-## Day 1 
+## Day 1
 ### Topic: Linear Regression Fundamentals
 *Date: October 3, 2024*
 
@@ -79,7 +79,7 @@ ___
   - m: number of training examples
   - x⁽ⁱ⁾: i-th input feature
   - y⁽ⁱ⁾: i-th actual output
- 
+
 **Optimization Goal (Minimizing the Cost Function)**
 
 ![image](https://github.com/user-attachments/assets/5de4831b-78a2-4a33-954c-a808c5a29bf7)
@@ -106,7 +106,7 @@ ___
 - Visualization helps understand the optimization landscape
 
 ___
-## Day 2 
+## Day 2
 ### Topic: Gradient Descent for Linear Regression
 *Date: October 4, 2024*
 
@@ -293,24 +293,24 @@ ___
 ![image](https://github.com/user-attachments/assets/aa31449a-9941-42e7-a683-8459d7d8f9bc)
 
 The machine learning process can be broken down into three main stages:
-1. **Data Pre-Processing**: 
+1. **Data Pre-Processing**:
     - Import the data
     - Clean the data (handle missing values, encoding categorical data)
     - Split into training and test sets
     - Feature scaling (normalization/standardization)
-  
-2. **Modelling**: 
+
+2. **Modelling**:
     - Build the model
     - Train the model
     - Make predictions
-  
-3. **Evaluation**: 
+
+3. **Evaluation**:
     - Calculate performance metrics
     - Make a verdict
 
 #### Data Pre-processing Steps
 
-1. **Importing the Data**: 
+1. **Importing the Data**:
     This involves loading the dataset into your Python environment. In my case, I used the Pandas library to import CSV data into a DataFrame.
 
 2. **Handling Missing Data**:
@@ -321,9 +321,9 @@ The machine learning process can be broken down into three main stages:
 3. **Encoding Categorical Data**:
     Categorical variables must be encoded as numerical values for ML algorithms. I used `LabelEncoder` for encoding categorical variables.
 
-4. **Splitting the Dataset**: 
+4. **Splitting the Dataset**:
     The dataset is split into a **Training set** (to train the model) and a **Test set** (to evaluate model performance).
-   
+
     ![image](https://github.com/user-attachments/assets/d490577f-72bd-45d1-9d6f-c82b81f42688)
 
 
@@ -338,7 +338,7 @@ The machine learning process can be broken down into three main stages:
     There are two types of feature scaling:
     - **Normalization**: Scales values between 0 and 1.
     - **Standardization**: Scales data with a mean of 0 and standard deviation of 1.
-      
+
     ![image](https://github.com/user-attachments/assets/bf5505f9-de35-45fb-9105-1f57c89aaef5)
 
 
