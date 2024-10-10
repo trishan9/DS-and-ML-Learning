@@ -35,6 +35,7 @@ ___
 | [Day 5](#day-5)   |         Data Pre-processing Techniques in R                                                                                                       |          [**Machine Learning A-Z: AI, Python & R**](https://www.udemy.com/course/machinelearning/)                                                                                                                                |
 | [Day 6](#day-6)   |         Vectorization, Gradient Descent for Multiple Feature Linear Regression                                                                                                       |          [**Machine Learning Specialization**](https://www.udemy.com/course/machinelearning/)                                                                                                                                |
 | [Day 7](#day-7)   |         Feature Scaling & Gradient Descent Optimization                                                                                                       |          [**Machine Learning Specialization**](https://www.udemy.com/course/machinelearning/)                                                                                                                                |
+| [Day 8](#day-8)   |         Exploratory Data Analysis in Python                                                                                                       |          [**Associate Data Scientist in Python**](https://app.datacamp.com/learn/career-tracks/associate-data-scientist-in-python)                                                                                                                                |
 
 ___
 ## Day 1
@@ -694,3 +695,73 @@ Feature scaling is crucial when features have very different ranges of values.
 
 ### Personal Notes 📝
 Today's learning significantly deepened my understanding of the practical aspects of machine learning optimization. The relationship between feature scaling and gradient descent performance was particularly enlightening. I found the systematic approach to choosing learning rates very practical and will definitely use this in future projects.
+
+___
+## Day 8
+### Topic: Exploratory Data Analysis with Python
+*Date: October 10, 2024*
+
+Today's Learning Objectives Completed ✅
+- Initial Data Exploration Techniques
+- Data Cleaning and Imputation Methods
+- Understanding Relationships in Data
+- Practical Applications of EDA
+
+### Detailed Notes 📝
+![65d3a069871456bd33730869_GC2xT1oWgAA1rAC](https://github.com/user-attachments/assets/b43524f9-8843-49b7-8dcb-e5ed09046cf6)
+
+
+#### Initial Data Exploration
+- Key functions for first look:
+  - `.head()`: Preview first few rows
+  - `.info()`: Get overview of data types and missing values
+  - `.describe()`: Summary statistics for numerical columns
+  - `.value_counts()`: Count categorical values
+  - `.dtypes`: Check data types
+
+#### Data Cleaning & Imputation
+- Handling Missing Data:
+  - Detection using `.isna().sum()`
+  - Strategies:
+    1. Drop if < 5% missing
+    2. Impute with mean/median/mode
+    3. Group-based imputation
+- Outlier Management:
+  - Detection using IQR method
+  - Visualization with boxplots
+  - Decision points: remove, transform, or keep
+  - Impact on distribution and analysis
+
+#### Relationships in Data
+- Time-based Analysis:
+  - Converting to DateTime using `pd.to_datetime()`
+  - Extracting components (year, month, day)
+  - Visualizing temporal patterns
+
+- Correlation Analysis:
+  - Using `.corr()` for numerical relationships
+  - Visualization with heatmaps
+  - Understanding correlation strength and direction
+
+- Categorical Relationships:
+  - Cross-tabulation with `pd.crosstab()`
+  - KDE plots for distribution comparison
+  - Categorical variables in scatter plots using hue
+
+#### Practical Applications
+- Feature Generation:
+  - Creating new columns from existing data
+  - Binning numerical data with `pd.cut()`
+  - Extracting datetime features
+
+- Hypothesis Generation:
+  - Avoiding data snooping/p-hacking
+  - Using EDA to form testable hypotheses
+  - Understanding limitations of exploratory analysis
+
+#### Key Takeaways 🔑
+- EDA is crucial first step in data science workflow
+- Balance between cleaning and analysis is important
+- Visualization helps identify patterns and relationships
+- Always consider statistical significance
+- EDA should lead to actionable insights or hypotheses
