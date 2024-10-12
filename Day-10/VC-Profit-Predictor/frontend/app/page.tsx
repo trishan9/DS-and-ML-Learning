@@ -82,13 +82,16 @@ export default function ProfitPredictorVC() {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch("http://localhost:5000/api/predict", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://api-vc-profit-predictor.vercel.app/api/predict",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
         },
-        body: JSON.stringify(data),
-      });
+      );
 
       if (!response.ok) {
         throw new Error("Prediction failed");
