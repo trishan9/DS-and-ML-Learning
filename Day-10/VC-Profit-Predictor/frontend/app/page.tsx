@@ -83,7 +83,7 @@ export default function ProfitPredictorVC() {
 
     try {
       const response = await fetch(
-        "https://api-vc-profit-predictor.vercel.app/api/predict",
+        "https://api-vc-profit-predictor.onrender.com/api/predict",
         {
           method: "POST",
           headers: {
