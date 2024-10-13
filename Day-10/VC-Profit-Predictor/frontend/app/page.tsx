@@ -116,7 +116,6 @@ export default function ProfitPredictorVC() {
         Marketing_Spend: sample.Marketing_Spend.toString(),
         State: sample.State,
       });
-      setActiveSample(sampleId);
     }
   };
 
@@ -128,7 +127,7 @@ export default function ProfitPredictorVC() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="flex top-0 sticky items-center h-16 px-4 border-b shrink-0 md:px-6 bg-white bg-opacity-50 backdrop-blur-md">
-        <nav className="flex-col hidden gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
+        <nav className="flex-col gap-6 text-lg font-medium flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <a
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
             href="/"
@@ -195,19 +194,19 @@ export default function ProfitPredictorVC() {
                     <Button
                       type="button"
                       variant="outline"
-                      className={`text-xs ${
+                      className={`text-xs focus:bg-primary focus:text-primary-foreground md:focus:text-white md:focus:bg-none ${
                         activeSample === null
                           ? "bg-primary text-primary-foreground"
                           : ""
                       }`}
                       onClick={() => {
+                        setActiveSample(null);
                         setFormData({
                           RnD_Spend: "",
                           Administration: "",
                           Marketing_Spend: "",
                           State: "",
                         });
-                        setActiveSample(null);
                       }}
                     >
                       Custom
@@ -217,12 +216,15 @@ export default function ProfitPredictorVC() {
                         key={sample.id}
                         type="button"
                         variant="outline"
-                        className={`text-xs ${
+                        className={`text-xs focus:bg-primary focus:text-primary-foreground md:focus:text-white md:focus:bg-none ${
                           activeSample === sample.id
                             ? "bg-primary text-primary-foreground"
                             : ""
                         }`}
-                        onClick={() => handleSampleSelect(sample.id)}
+                        onClick={() => {
+                          setActiveSample(sample.id);
+                          handleSampleSelect(sample.id);
+                        }}
                       >
                         Sample {sample.id + 1}
                       </Button>
