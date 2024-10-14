@@ -11,7 +11,7 @@ ggplot() +
 y_hat_linear = predict(linear_regressor, newdata=data.frame(Level = 7.5))
 
 
-polynomial_regressor = lm(formula = Salary ~ poly(Level, 5), data = dataset)
+polynomial_regressor = lm(formula = Salary ~ poly(Level, 3), data = dataset)
 library(ggplot2)
 ggplot() +
   geom_point(aes(x=dataset$Level, y=dataset$Salary), color="blue") +
