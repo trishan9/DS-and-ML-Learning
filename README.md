@@ -17,12 +17,14 @@ ___
 
 ## Projects Completed
 
-| **S.N.** | **Project Title**
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| 1.       | [**Nobel Prize Winner Data Analysis**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Nobel-Prize-Winner-Data-Analysis/notebook.ipynb)  |
-| 2.       | [**VC Profit Predictor**](https://github.com/trishan9/VC-Profit-Predictor)  |
-| 3.       | [**Breast Cancer Prediction**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Breast-Cancer-Prediction/breast_cancer_prediction.ipynb)  |
-| 4.       | [**Tweets Sentiment Analysis**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Tweets-Sentiment-Analysis/sentiment-analysis.ipynb)  |
+| **S.N.** | **Project Title** | **Status** |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 1.       | [**Nobel Prize Winner Data Analysis**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Nobel-Prize-Winner-Data-Analysis/notebook.ipynb)  | ✅         |
+| 2.       | [**VC Profit Predictor**](https://github.com/trishan9/VC-Profit-Predictor)  | ✅         |
+| 3.       | [**Breast Cancer Prediction**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Breast-Cancer-Prediction/breast_cancer_prediction.ipynb)  |✅          |
+| 4.       | [**Tweets Sentiment Analysis**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Tweets-Sentiment-Analysis/sentiment-analysis.ipynb)  |✅          |
+| 5.       | [**Brain Tumor Detection**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Brain-Tumor-Prediction/brain_tumor_prediction.ipynb)  |✅          |
+| 6.       | [**Student Performance Evaluation**](https://github.com/trishan9/DS-and-ML-Projects/blob/main/Student-Performance-Evaluation/student_performance_evaluation.ipynb)  |✅          |
 
 
 ## Topics Learnt
