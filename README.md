@@ -58,7 +58,7 @@ ___
 | [25](#day-25)   |         Implementation of Support Vector Machines                                                                                                 |     [**Kaggle**](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)      |
 | [26](#day-26)   |         Implementation of Image Classification for Brain Tumor Detection                                                                                               |     [**Kaggle Dataset**](https://www.kaggle.com/datasets/jakeshbohaju/brain-tumor/)      |
 | [27](#day-27)   |         Implementation of Classification Algorithms for Student Performance Evaluation                                                                                               |     [**Kaggle Dataset**](https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset/)      |
-| [28](#day-28)   |         Decision Trees, Random Forest, and Extra Trees Classification Algorithms                                                                                               |     [**DataCamp Tutorial 1**](https://www.datacamp.com/tutorial/decision-tree-classification-python), [**DataCamp Tutorial 2**](https://www.datacamp.com/tutorial/decision-tree-classification-python), **YouTube**      |
+| [28](#day-28)   |         Decision Trees, Random Forest, and Extra Trees Classification Algorithms                                                                                               |     [**DataCamp Tutorial 1**](https://www.datacamp.com/tutorial/decision-tree-classification-python), [**DataCamp Tutorial 2**](https://www.datacamp.com/tutorial/random-forests-classifier-python), **YouTube**      |
 
 
 
